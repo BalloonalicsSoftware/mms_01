@@ -333,8 +333,6 @@ header {
     background-color: #A98760;
 }
   
-
-  
   
 /*Macbook Ver*/
 
@@ -395,13 +393,17 @@ header {
        display: none;
     }
 
+    .MMS{
+        font-size: 70px;
+    }
+
     .name {
-        font-size: 45px;
+        font-size: 30px;
         line-height: 120%;
     }
 
     .sub-heading {
-        font-size: 14px;
+        font-size: 12px;
         animation: none;
     }
 
@@ -413,14 +415,39 @@ header {
         display: flex;
         position: relative;
         flex-direction: column;
+        row-gap: 15px;
+        justify-content: centers;
     }
 
+    .column{
+        width: 200px;
+        height: 450px;
+    }
+
+    .project{
+        width: 150px;
+        justify-content: center;
+    }
+
+    .project-thumbnail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 50px;
+    }
+    
+    .container{
+        width: 150px;
+        padding: 90px 90px;
+    }
+    
     .project-desc{
         display: none;
     }
 
     .project-thumbnail{
         flex-direction: column;
+        justify-content: center;
     }
 
     .footer-distributed{
