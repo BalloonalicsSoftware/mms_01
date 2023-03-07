@@ -57,12 +57,12 @@ header {
     font-family: 'Poppins', sans-serif;
     font-size: 88px;
     font-weight: 300;
-    line-height: 98%;
+    line-height: 120%;
     text-align: left;
     width: 100%;
     color: white;
     padding-top: 28%;
-    margin-bottom: 8vh;
+    margin-bottom: 5vh;
     margin-top: 0;
 }
 
@@ -129,6 +129,8 @@ header {
 
 .intro-text p{
     margin-bottom: 8%;
+    font-size: 16.5px;
+    line-height: 190%;
 }
 
 .intro-text h4{
