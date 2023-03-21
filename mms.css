@@ -340,7 +340,7 @@ header {
   
 /*Macbook Ver*/
 
-@media (min-width: 601px) and (max-width: 1900px) {
+@media (min-width: 601px) and (max-width: 2000px) {
     header{
         padding: 18px 5%;
     }
