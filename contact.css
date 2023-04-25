@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    font-family: 'poppins', sans serif;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0;
+}
+
+/*Nav bar*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 18px 15%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo-img{
+    padding-top: 10px;
+    max-width: 100px;
+    width: 100%;
+}
+
+
+.category {
+    list-style: none;
+}
+
+.category li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.li,a {
+    color: white;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 10px;
+
+}
+
+form h2{
+    color: #A98760;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+form input, form textarea{
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 30px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+form button{
+    padding: 15px;
+    background-color: #A98760;
+    color: #ffffffe4;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 30px auto 0;
+    border-radius: 25px;
+}
+
+/*Footer*/
+.footer-distributed{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: 16px 'Poppins', sans-serif;
+    font-weight: 300;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    display: flex;
+    justify-content: space-around;
+    color:  #ffffff;
+    vertical-align: top;
+    background-color: #A98760;
+}
+
+/*Macbook Ver*/
+
+@media (min-width: 601px) and (max-width: 1900px) {
+    header{
+        padding: 18px 5%;
+    }
+
+    .main{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .container{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+}
+
+/*Mobile Ver*/
+
+@media (max-width: 600px) {
+    .category {
+       display: none;
+    }
+
+    .MMS{
+        font-size: 50px;
+    }
+
+    .name {
+        font-size: 30px;
+        line-height: 140%;
+    }
+
+    .footer-distributed{
+        flex-direction: column;
+        text-align: left;
+    }
+}
