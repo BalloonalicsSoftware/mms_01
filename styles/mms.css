@@ -1,47 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700&family=Montserrat+Alternates:wght@200;300&family=Orbitron:wght@400;700&family=Poppins:wght@200;300;500&family=Roboto:wght@100;300;500&family=Yeseva+One&display=swap');
-
-body {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    margin: 0;
-}
-
-/*Nav bar*/
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    padding: 18px 15%;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-}
-
-.logo {
-    cursor: pointer;
-}
-
-.logo-img{
-    padding-top: 10px;
-    max-width: 100px;
-    width: 100%;
-}
-
-
-.category {
-    list-style: none;
-}
-
-.category li {
-    display: inline-block;
-    padding: 0px 30px;
-}
-
-.li,a {
-    color: white;
-    text-decoration: none;
-}
-
 /*Main body styles*/
 .main{
     background-image: linear-gradient(rgba(0, 0, 0, 0.79),rgba(0, 0, 0, 0.755)), url(https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1768&q=80);
@@ -51,7 +8,6 @@ header {
     padding-right: 15%;
     gap: 15px;
 }
-
 
 .name {
     font-family: 'Poppins', sans-serif;
@@ -319,37 +275,9 @@ header {
     font-size: 20px;
     padding: 16px 15px;
 }
-
-/*Footer*/
-.footer-distributed{
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font: 16px 'Poppins', sans-serif;
-    font-weight: 300;
-    padding-bottom: 13px;
-    padding-top: 13px;
-    display: flex;
-    justify-content: space-around;
-    color:  #ffffff;
-    vertical-align: top;
-    background-color: #A98760;
-}
-  
   
 /*Macbook Ver*/
-
 @media (min-width: 601px) and (max-width: 1900px) {
-    header{
-        padding: 18px 5%;
-    }
-
-    .main{
-        padding-right: 5%;
-        padding-left: 5%;
-    }
-
     .name {
         font-size: 54px;
         padding-top: 16%;
@@ -391,7 +319,6 @@ header {
 }
 
 /*Mobile Ver*/
-
 @media (max-width: 600px) {
     .category {
        display: none;
