@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700&family=Montserrat+Alternates:wght@200;300&family=Orbitron:wght@400;700&family=Poppins:wght@200;300;500&family=Roboto:wght@100;300;500&family=Yeseva+One&display=swap');
 /*Team Section*/
 .main{
-    margin-left: 15%;
-    margin-right: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .team-heading{
     margin-top: 200px;
-    margin-left: 10%;
-    margin-right: 10%;
+    
 }
 
 .team-heading h2 {
@@ -22,7 +21,7 @@
 .team-heading p{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 12pt;
     color: white;
     margin-bottom: 150px;
     line-height: 200%;
@@ -30,17 +29,16 @@
 
 .row {
     position: relative;
-    display: grid;
-    grid-template:
-        "a b";
-    grid-auto-columns: 1fr;
-    grid-column-start: auto;
-    gap: 55px;
+    display: flex;
+    flex-basis: 1;
+    gap: 150px;
     align-items: center;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 200px;
-    margin-left: 10%;
-    margin-right: 10%;
+}
+
+.column{
+    flex-basis: 100%;
 }
 
 .img-box{
@@ -50,7 +48,6 @@
 .img-box img {
     border-radius: 5px;
     width: 100%;
-    max-width: 500px;
     height: auto;
     transition: transform .2s;
 }
@@ -73,12 +70,12 @@ a {
 
 .column h2 {
     font-style: bold;
-    font-size: 26px;
+    font-size: 24pt;
 }
 
 .column h3{
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 18pt;
 }
 
 .column p{
@@ -86,41 +83,30 @@ a {
     line-height: 190%;
     margin-top: 10px;
     margin-bottom: 16px;
+    font-size: 13pt;
 }
-
-/*Footer*/
-.footer-distributed{
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font: 16px 'Poppins', sans-serif;
-    font-weight: 300;
-    padding-bottom: 13px;
-    padding-top: 13px;
-    display: flex;
-    justify-content: space-around;
-    color:  #ffffff;
-    vertical-align: top;
-    background-color: #A98760;
-}
-  
   
   
 /*Macbook Ver*/
-
 @media only screen and (max-width: 1800px) {
     header{
         padding: 18px 5%;
     }
     .main{
-        margin-right: 5%;
-        margin-left: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+        gap: 80px;
+    }
+    .column p{
+        font-size: 12pt;
     }
 }
 
 /*Mobile Ver*/
-
 @media only screen and (max-width: 860px) {
     .category {
        display: none;

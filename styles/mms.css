@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700&family=Montserrat+Alternates:wght@200;300&family=Orbitron:wght@400;700&family=Poppins:wght@200;300;500&family=Roboto:wght@100;300;500&family=Yeseva+One&display=swap');
 /*Main body styles*/
 .main{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.79),rgba(0, 0, 0, 0.755)), url(https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1768&q=80);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79),rgba(0, 0, 0, 0.755)), url(../assets/group.png);
     background-position: center;
     background-size: cover;
     padding-left: 15%;

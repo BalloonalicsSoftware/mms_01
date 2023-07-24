@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700&family=Montserrat+Alternates:wght@200;300&family=Orbitron:wght@400;700&family=Poppins:wght@200;300;500&family=Roboto:wght@100;300;500&family=Yeseva+One&display=swap');
+main{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Poppins', sans-serif;
+}
+.intro{
+    margin-bottom: 100px;
+}
+.intro h2{
+    margin-top: 200px;
+    font-weight: 400;
+    font-size: 48px;
+}
+.intro p{
+    font-weight: 300;
+    font-size: 12pt;
+    line-height: 180%;
+}
+.services h2{
+    font-weight: 400;
+    font-size: 48px;
+}
+.main-section-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 15%;
+}
+.container {
+    background: black;
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    grid-template-rows: repeat(3, 220px);
+    grid-gap: 10px;
+}
+.cell {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 20pt;
+    font-weight: bold;
+    background-color: #A98760;
+    border-radius: 10px;
+}
+.cell-a, .cell-b{
+    background-color: #DDCFAF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 20pt;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.cell-b{
+    color: black;
+}
+
+.text h3{
+    font-size: 24pt;
+}
+.text p{
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+@media only screen and (max-width: 1800px) {
+    main{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
