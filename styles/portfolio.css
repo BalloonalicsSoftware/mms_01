@@ -55,8 +55,12 @@
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides1 {
   display: none;
+}
+
+.mySlides1 img{
+  border-radius: 10px;
 }
 
 /* Next & previous buttons */

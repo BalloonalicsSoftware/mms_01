@@ -23,7 +23,7 @@ main{
 }
 .main-section-container{
     display: flex;
-    gap: 50px;
+    gap: 120px;
     align-items: center;
     margin-bottom: 15%;
 }
@@ -31,6 +31,7 @@ main{
     background: black;
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 5px solid black;
 }
 .grid {
@@ -48,6 +49,7 @@ main{
     font-weight: bold;
     background-color: #A98760;
     border-radius: 10px;
+    text-align: center;
 }
 .cell-a, .cell-b{
     background-color: #DDCFAF;
@@ -58,6 +60,7 @@ main{
     font-size: 20pt;
     font-weight: bold;
     border-radius: 10px;
+    text-align: center;
 }
 .cell-b{
     color: black;
@@ -65,10 +68,21 @@ main{
 
 .text h3{
     font-size: 24pt;
+    margin-top: 0;
 }
 .text p{
     font-weight: 300;
     font-size: 12pt;
+}
+
+.connect-btn{
+    color:white;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 16px 40px;
+    font-size: 13pt;
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 1800px) {
@@ -76,4 +90,11 @@ main{
         padding-right: 5%;
         padding-left: 5%;
     }
+     .main-section-container{
+        flex-direction: column;
+    }
+}
+
+/*Mobile Ver*/
+@media only screen and (max-width: 860px) {
 }
